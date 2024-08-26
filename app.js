@@ -45,5 +45,5 @@ const del = document.querySelector(".reset-btn")
 del.addEventListener("click", resetBtn)
 function resetBtn(){
   document.querySelector(".input-info h1").innerHTML = `0<sup>o</sup>C`;
-  document.querySelector(".output-info h1").innerHTML = `0<sup>o</sup>F`
+  document.querySelector(".output-info h1").innerHTML = `32<sup>o</sup>F`
 }
